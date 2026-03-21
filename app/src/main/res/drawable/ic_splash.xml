@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash screen icon: same P glyph as the launcher, in primary blue.
+    Uses hardcoded color to work in all drawable contexts.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#1A56A0"
+        android:pathData="
+            M 36,28 L 50,28
+            C 64,28 72,34 72,46
+            C 72,58 64,64 50,64
+            L 44,64 L 44,80 L 36,80 Z
+            M 44,36 L 44,56 L 50,56
+            C 59,56 63,52 63,46
+            C 63,40 59,36 50,36 Z
+        "/>
+</vector>

@@ -1,0 +1,31 @@
+# Build outputs
+/build
+/app/build
+*.apk
+*.aab
+
+# Gradle cache and wrapper binary (downloaded automatically)
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# Local machine config
+local.properties
+
+# Signing keys — never commit
+signing.properties
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Dictionary generation scripts — not needed to build
+scripts/

@@ -1,0 +1,34 @@
+Categories:
+  - Education
+License: MIT
+AuthorName: Cuyo Pixel
+AuthorWebSite: https://github.com/cuyo-pixel
+SourceCode: https://github.com/cuyo-pixel/palabradehoy
+IssueTracker: https://github.com/cuyo-pixel/palabradehoy/issues
+
+AutoName: Palabra de Hoy
+
+Description: |-
+    Word of the day app (Palabra de Hoy) using a dictionary derived from the Real Academia
+    Española corpus (via github.com/eneko98/RAE-Corpus). One word per day,
+    same for all users — date is used as a deterministic seed so no server
+    is needed. No network permission requested.
+
+    The dictionary JSON is pre-generated and included in the repo, so the
+    build works without any extra steps.
+
+    Favourites can be saved, exported and imported as JSON. Optional daily
+    notification at 09:00 via WorkManager. Four themes including OLED.
+    Material You on Android 12+.
+
+Builds:
+  - versionName: '1.0.0'
+    versionCode: 1
+    commit: v1.0.0
+    gradle:
+      - release
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0.0'
+CurrentVersionCode: 1

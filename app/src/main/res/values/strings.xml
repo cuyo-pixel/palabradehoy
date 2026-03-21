@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Palabra de Hoy</string>
+    <string name="app_title">Palabra de Hoy</string>
+
+    <!-- Home -->
+    <string name="nav_favourites">Favoritos</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="add_to_favourites">Añadir a favoritos</string>
+    <string name="remove_from_favourites">Quitar de favoritos</string>
+
+    <!-- Favourites -->
+    <string name="favourites_title">Favoritos</string>
+    <string name="favourites_empty">Aún no tienes palabras favoritas.\nToca el corazón en la palabra del día para guardarla aquí.</string>
+    <string name="favourites_delete">Eliminar de favoritos</string>
+    <string name="nav_back">Atrás</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_notif_daily">Notificación diaria</string>
+    <string name="settings_notif_time">Cada día a las 9:00</string>
+    <string name="settings_backup">Copia de seguridad</string>
+    <string name="settings_folder_current">Carpeta actual</string>
+    <string name="settings_export">Exportar favoritas</string>
+    <string name="settings_import">Importar favoritas</string>
+    <string name="settings_folder_change">Cambiar carpeta de copias de seguridad</string>
+    <string name="settings_folder_choose">Elegir carpeta de copias de seguridad</string>
+    <string name="settings_info">Información</string>
+    <string name="settings_version">Versión</string>
+    <string name="settings_dictionary">Diccionario</string>
+    <string name="settings_dictionary_value">DRAE (código abierto)</string>
+    <string name="settings_offline">Conexión requerida</string>
+    <string name="settings_offline_value">No</string>
+    <string name="kofi_button">Invítame a un café</string>
+    <string name="license">Licencia MIT</string>
+    <string name="app_by">App by</string>
+
+    <!-- Theme options -->
+    <string name="theme_system">Sistema</string>
+    <string name="theme_system_desc">Sigue el modo del dispositivo</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_light_desc">Fondo blanco, siempre</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_dark_desc">Superficies grises oscuras</string>
+    <string name="theme_oled">OLED</string>
+    <string name="theme_oled_desc">Negro puro para pantallas AMOLED</string>
+
+    <!-- Notifications -->
+    <string name="notif_prompt_title">Notificación diaria</string>
+    <string name="notif_prompt_body">¿Quieres recibir cada día una notificación con la nueva Palabra de Hoy?\n\nPuedes cambiar esta opción en cualquier momento desde Ajustes.</string>
+    <string name="notif_prompt_accept">Sí, activar</string>
+    <string name="notif_prompt_decline">No, gracias</string>
+    <string name="notif_title">Tu nueva palabra del día es\u2026</string>
+    <string name="notif_channel_name">Palabra de Hoy</string>
+    <string name="notif_channel_desc">Notificación diaria con la nueva palabra</string>
+
+    <!-- Snackbars -->
+    <string name="export_success">Copia de seguridad guardada.</string>
+    <string name="export_error">Error al guardar el archivo.</string>
+    <string name="import_success">Se importaron %1$d palabras.</string>
+    <string name="import_error">Error al importar: formato incorrecto.</string>
+</resources>
