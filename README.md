@@ -4,7 +4,7 @@
 
 # Palabra de Hoy
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/cuyo-pixel/palabradehoy/releases)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/cuyo-pixel/palabradehoy/releases)
 [![Platform](https://img.shields.io/badge/platform-Android%2010%2B-green.svg)](https://developer.android.com/about/versions/10)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/kotlin-2.1.0-7F52FF.svg)](https://kotlinlang.org)
