@@ -34,7 +34,7 @@
     <string name="settings_offline">Conexión requerida</string>
     <string name="settings_offline_value">No</string>
     <string name="kofi_button">Invítame a un café</string>
-    <string name="license">Licencia MIT</string>
+    <string name="license">Licencia AGPLv3</string>
     <string name="app_by">App by</string>
 
     <!-- Theme options -->
