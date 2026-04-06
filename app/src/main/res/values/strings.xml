@@ -11,7 +11,7 @@
 
     <!-- Favourites -->
     <string name="favourites_title">Favoritos</string>
-    <string name="favourites_empty">Aún no tienes palabras favoritas.\nToca el corazón en la palabra del día para guardarla aquí.</string>
+    <string name="favourites_empty">Aún no tienes palabras favoritas.\nToca la estrella en la palabra del día para guardarla aquí.</string>
     <string name="favourites_delete">Eliminar de favoritos</string>
     <string name="nav_back">Atrás</string>
 
