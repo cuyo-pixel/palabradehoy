@@ -86,7 +86,7 @@ con la RAE.
 
 | Tool | Minimum version |
 |------|----------------|
-| JDK  | 17 |
+| JDK  | 21 |
 | Android SDK | API 29 |
 | Gradle | 8.11.1 (wrapper included) |
 
