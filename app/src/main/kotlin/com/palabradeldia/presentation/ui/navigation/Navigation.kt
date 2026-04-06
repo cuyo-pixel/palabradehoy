@@ -35,12 +35,20 @@ fun PalabraNavHost(
         }
         composable(Screen.Favorites.route) {
             FavoritesScreen(
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = {
+                    if (navController.currentBackStackEntry?.destination?.route != Screen.Home.route) {
+                        navController.popBackStack()
+                    }
+                }
             )
         }
         composable(Screen.Settings.route) {
             SettingsScreen(
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = {
+                    if (navController.currentBackStackEntry?.destination?.route != Screen.Home.route) {
+                        navController.popBackStack()
+                    }
+                }
             )
         }
     }
