@@ -17,8 +17,8 @@ android {
         applicationId = "com.palabradeldia"
         minSdk        = 29
         targetSdk     = 36
-        versionCode   = 2
-        versionName   = "1.1.0"
+        versionCode   = 3
+        versionName   = "1.1.1"
         vectorDrawables { useSupportLibrary = true }
     }
 
@@ -82,6 +82,11 @@ android {
 }
 
 dependencies {
+    // Force kotlin-metadata-jvm 2.1.0 so Room's KSP processor can read
+    // metadata emitted by Kotlin 2.1.0 (which is version 2.2.0).
+    // Without this the build fails with "maximum supported version is 2.1.0".
+    implementation(libs.kotlin.metadata.jvm)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.splashscreen)

@@ -8,6 +8,7 @@ compose-bom = "2025.02.00"
 lifecycle = "2.8.7"
 navigation = "2.8.7"
 room = "2.7.0"
+kotlinMetadataJvm = "2.1.0"
 datastore = "1.1.3"
 coroutines = "1.10.1"
 coreKtx = "1.15.0"
@@ -54,6 +55,9 @@ coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutin
 
 # JSON parsing (bundled dictionary)
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.8.0" }
+
+# Kotlin metadata — forced to 2.1.0 so Room's KSP can read Kotlin 2.1.0 metadata (v2.2.0)
+kotlin-metadata-jvm = { group = "org.jetbrains.kotlin", name = "kotlin-metadata-jvm", version.ref = "kotlinMetadataJvm" }
 
 # WorkManager
 work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version = "2.10.0" }

@@ -10,7 +10,7 @@
 }
 
 # Room — keep entity and DAO classes
--keep class com.palabradeldía.data.db.** { *; }
+-keep class com.palabradeldia.data.db.** { *; }
 
 # Hilt
 -dontwarn dagger.hilt.**

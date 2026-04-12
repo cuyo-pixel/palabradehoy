@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Palabra does not collect, store, or transmit any personal data.
+Palabra de Hoy does not collect, store, or transmit any personal data.
 
 The app works entirely offline. No internet connection is used or required,
 and no network permission is declared in the manifest.

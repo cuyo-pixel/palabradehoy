@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -16,10 +17,12 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.palabradeldia.BuildConfig
 import com.palabradeldia.R
 import com.palabradeldia.domain.model.ThemeMode
 import com.palabradeldia.presentation.viewmodel.ExportUiState
@@ -156,7 +159,7 @@ fun SettingsScreen(
 
             // Info
             SectionLabel(stringResource(R.string.settings_info))
-            InfoRow(stringResource(R.string.settings_version), "1.0.0")
+            InfoRow(stringResource(R.string.settings_version), BuildConfig.VERSION_NAME)
             InfoRow(stringResource(R.string.settings_dictionary),
                 stringResource(R.string.settings_dictionary_value))
             InfoRow(stringResource(R.string.settings_offline),
@@ -197,6 +200,12 @@ private fun AppFooter() {
             context.startActivity(Intent(Intent.ACTION_VIEW,
                 Uri.parse("https://ko-fi.com/cuyopixel")))
         }) {
+            Image(
+                painter = painterResource(R.drawable.ic_kofi),
+                contentDescription = null,
+                modifier = Modifier.size(18.dp)
+            )
+            Spacer(Modifier.width(6.dp))
             Text(stringResource(R.string.kofi_button))
         }
         Spacer(Modifier.height(2.dp))
