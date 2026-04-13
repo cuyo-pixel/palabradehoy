@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="96dp"
-    android:height="96dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-
-    <!-- Book body -->
-    <path
-        android:fillColor="#9E9E9E"
-        android:pathData="
-            M22,82 L22,46 Q22,26 54,26 Q86,26 86,46 L86,82 L72,82
-            L72,50 Q72,42 54,42 Q36,42 36,50 L36,82 Z
-        "/>
-
-    <!-- Bookmark ribbon -->
-    <path
-        android:fillColor="#9E9E9E"
-        android:pathData="
-            M40,23 Q46,14 54,18 Q62,22 68,14 L68,8
-            Q62,16 54,12 Q46,8 40,17 Z
-        "/>
-
-    <!-- Ñ — N strokes -->
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="
-            M42,70 L42,40 L47,40 L54,55 L54,40 L59,40 L59,70 L54,70 L47,55 L47,70 Z
-        "/>
-
-    <!-- Ñ — tilde -->
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="
-            M43,38 Q46,35 50,36 Q53,37 57,34 L58,36 Q54,39 51,38 Q48,37 44,40 Z
-        "/>
-</vector>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_background"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+    <monochrome android:drawable="@mipmap/ic_launcher_monochrome"/>
+</adaptive-icon>

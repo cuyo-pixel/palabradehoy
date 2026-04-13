@@ -10,11 +10,4 @@
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <!-- Splash screen theme — shown by the OS before Activity.onCreate() -->
-    <style name="Theme.PalabraDelDia.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#FFFFFF</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
-        <item name="postSplashScreenTheme">@style/Theme.PalabraDelDia</item>
-    </style>
-
 </resources>

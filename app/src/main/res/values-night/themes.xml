@@ -8,8 +8,9 @@
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
+    <!-- Splash screen theme — same golden background as the app icon -->
     <style name="Theme.PalabraDelDia.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#111318</item>
+        <item name="windowSplashScreenBackground">#D3B637</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
         <item name="postSplashScreenTheme">@style/Theme.PalabraDelDia</item>
     </style>
