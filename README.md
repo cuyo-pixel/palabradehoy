@@ -10,6 +10,7 @@
 [![Kotlin](https://img.shields.io/badge/kotlin-2.1.0-7F52FF.svg)](https://kotlinlang.org)
 [![No Internet](https://img.shields.io/badge/internet-not%20required-success.svg)](#)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Invítame%20a%20un%20café-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/cuyopixel)
+[![Website](https://img.shields.io/badge/Website-palabradehoy.netlify.app-00C7B7?logo=netlify&logoColor=white)](https://palabradehoy.netlify.app/)
 
 </div>
 
