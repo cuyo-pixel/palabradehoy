@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace  = "com.palabradeldia"
+    namespace  = "com.cuyo_pixel.palabra_de_hoy"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.palabradeldia"
+        applicationId = "com.cuyo_pixel.palabra_de_hoy"
         minSdk        = 29
         targetSdk     = 36
         versionCode   = 3

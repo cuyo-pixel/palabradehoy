@@ -153,9 +153,8 @@ AGPLv3 — see [LICENSE](LICENSE).
 **App by [Cuyo Pixel](https://github.com/cuyo-pixel)**
 
 <sub>
-The author designed and built this application, making all product and
-technical decisions. Claude Sonnet (Anthropic) assisted with documentation and
-build automation.
+Designed, built and written by [Cuyo Pixel](https://github.com/cuyo-pixel).  
+Assisted by AI tools for minor automation and documentation tasks.
 </sub>
 
 </div>
